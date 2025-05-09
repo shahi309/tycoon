@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TYCOON</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product h3 {
+      margin-top: 0;
+    }
+    .price {
+      color: #e91e63;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TYCOON</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="shop">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <h3>Black Oversized T-Shirt</h3>
+        <p class="price">$20</p>
+        <p>Premium cotton oversized tee for casual streetwear.</p>
+      </div>
+      <div class="product">
+        <h3>Slim Fit Jeans (Dark Blue)</h3>
+        <p class="price">$35</p>
+        <p>Comfortable, stretchable jeans perfect for everyday wear.</p>
+      </div>
+      <div class="product">
+        <h3>White Button-Up Shirt</h3>
+        <p class="price">$30</p>
+        <p>Minimalist formal shirt for smart occasions.</p>
+      </div>
+      <div class="product">
+        <h3>Minimal Website Template (HTML)</h3>
+        <p class="price">$15</p>
+        <p>A clean, modern template for personal or business websites.</p>
+      </div>
+      <div class="product">
+        <h3>Productivity eBook (PDF)</h3>
+        <p class="price">$10</p>
+        <p>Learn proven hacks to boost your focus and get more done.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About TYCOON</h2>
+    <p>TYCOON is a hybrid brand offering high-quality digital and physical products with a focus on style, simplicity, and usability.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@tycoon.com</p>
+    <p>Phone: +880-1XXX-XXXXXX</p>
+    <p>Follow us on social media!</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TYCOON. All rights reserved.</p>
+  </footer>
+</body>
+</html>
